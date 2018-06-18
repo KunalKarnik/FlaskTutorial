@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<h1>{{article.title}}</h1>
+<p class="lead">{{article.content}}</p>
+<p>By : {{article.author}}</p>
+<p>Written : {{article.date_created}}</p>
+
+{% endblock %}
